@@ -1,0 +1,14 @@
+Open Weather API
+
+95cbedf96ba34371fbd80cb197de0314
+
+https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}
+
+icon fontAwesome: 
+
+<script src="https://kit.fontawesome.com/ccf9625317.js" crossorigin="anonymous"></script>
+
+google font: 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+°C
