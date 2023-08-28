@@ -35,9 +35,12 @@ search.addEventListener('click', () => {
             // Nếu mã trả về là '404', hiển thị thông báo lỗi 404 và ẩn các hộp chi tiết thời tiết
             if (json.cod === '404') {
                 container.style.height = '400px';
-                weatherBox.style.display = 'none';
+                const image404 = document.querySelector('.weather-box img');
+                
+                image404.src = 'images/cat.jpg';
+                weatherBox.style.display = '';
                 weatherDetails.style.display = 'none';
-                error404.style.display = 'block';
+                error404.style.display = '';
                 error404.classList.add('fadeIn');
                 return;
             }
